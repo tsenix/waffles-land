@@ -247,6 +247,9 @@ html {
   font-weight: 700;
   line-height: 125%
 }
+.menu__link.promotion {
+  color: red
+}
 .menu__spoller {
   width: 100%
 }
@@ -859,6 +862,9 @@ html {
     line-height: 125%;
     color: #000;
     transition: color .5s ease
+  }
+  .header__link.promotion {
+    color: red
   }
   .header__link:hover {
     color: red
