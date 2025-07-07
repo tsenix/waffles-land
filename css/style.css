@@ -679,16 +679,19 @@ html {
 .info h4 {
   font-weight: 700;
   line-height: 125%;
-  text-align: center
+  text-align: center;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal
 }
 .info h1 {
-  font-size: 69px
+  font-size: 49px
 }
 .info h2 {
-  font-size: 45px
+  font-size: 35px
 }
 .info h3 {
-  font-size: 30px
+  font-size: 25px
 }
 .info h4 {
   font-size: 18px
@@ -866,6 +869,15 @@ html {
   }
   .main-menu__item {
     flex: 0 0 calc(33.333% - 14px)
+  }
+  .info h1 {
+    font-size: 69px
+  }
+  .info h2 {
+    font-size: 45px
+  }
+  .info h3 {
+    font-size: 30px
   }
 }
 @media (min-width:61.99875em) {
