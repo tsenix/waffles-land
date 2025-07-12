@@ -551,8 +551,7 @@ body {
   font-weight: 700;
   line-height: 125%;
   text-transform: uppercase;
-  text-align: center;
-  color: #494d4e
+  text-align: center
 }
 .main-menu__item-cost {
   margin-bottom: 7px;
@@ -573,8 +572,7 @@ body {
   margin-bottom: 2px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 125%;
-  color: #494d4e
+  line-height: 125%
 }
 .main-menu__item-list {
   width: 100%;
@@ -585,8 +583,7 @@ body {
 .main-menu__item-elem {
   position: relative;
   font-size: 14px;
-  line-height: 125%;
-  color: #494d4e
+  line-height: 125%
 }
 .main-menu__item-elem::after {
   content: "";
@@ -595,7 +592,7 @@ body {
   height: 3px;
   top: calc(50% - 1.5px);
   right: -11px;
-  background-color: #8d3d0e;
+  background-color: #342214;
   border-radius: 50%
 }
 .main-menu__item-elem:last-child::after {
